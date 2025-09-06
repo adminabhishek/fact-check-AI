@@ -5,6 +5,5 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run app.py --server.port $PORT
-    envVars:
-      - key: GEMINI_API_KEY
-        fromSecret: GEMINI_API_KEY
+    envGroups:
+      - factcheckai-secrets
