@@ -1,0 +1,13 @@
+[server]
+port = 8501
+address = "0.0.0.0"
+maxUploadSize = 500
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+serverAddress = "localhost"
+gatherUsageStats = false
+
+[client]
+showErrorDetails = true
