@@ -7,4 +7,4 @@ services:
     startCommand: streamlit run app.py --server.port $PORT
     envVars:
       - key: GEMINI_API_KEY
-        value: YOUR_GEMINI_API_KEY
+        value: AIzaSyDY3baWbeY-wMFtAeAFWWkAL8JOGDidHI4
